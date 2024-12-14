@@ -293,3 +293,10 @@ img {
     height: 3.5rem;
   }
   
+  /* RESPONSIVENESS */
+  @media (max-width: 520px) {
+    .hero-buttons {
+      display: grid;
+      grid-template-columns: 1fr;    
+    }
+  }
